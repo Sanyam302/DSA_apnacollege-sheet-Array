@@ -1,38 +1,36 @@
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
-        vector<vector<int>> ans;
-        sort(nums.begin(), nums.end());
         int n = nums.size();
+        vector<vector<int>> ans;
+        if (n < 3) return ans;
+        sort(nums.begin(), nums.end());
 
-        for (int i = 0; i < n - 2; i++) {
-            // Skip duplicate values for i
+        for (int i = 0; i < n - 2; ++i) {
+            // If nums[i] is positive, sum can't be zero any more
+            if (nums[i] > 0) break;
+
+            // Skip duplicate 'i' values
             if (i > 0 && nums[i] == nums[i - 1]) continue;
 
-            int a = i + 1;
-            int b = n - 1;
-
-            while (a < b) {
-                int sum = nums[i] + nums[a] + nums[b];
-
+            int l = i + 1, r = n - 1;
+            while (l < r) {
+                int sum = nums[i] + nums[l] + nums[r];
                 if (sum == 0) {
-                    vector<int>t={nums[i], nums[a], nums[b]};
-                    ans.push_back(move(t));
-                    a++;
-                    b--;
-
-                    // Skip duplicates for a and b
-                    while (a < b && nums[a] == nums[a - 1]) a++;
-                    while (a < b && nums[b] == nums[b + 1]) b--;
-
-                } else if (sum < 0) {
-                    a++;
+                    ans.push_back({nums[i], nums[l], nums[r]});
+                    ++l; --r;
+                    // Skip duplicates for l and r
+                    while (l < r && nums[l] == nums[l - 1]) ++l;
+                    while (l < r && nums[r] == nums[r + 1]) --r;
+                }
+                else if (sum < 0) {
+                    ++l;
                 } else {
-                    b--;
+                    --r;
                 }
             }
         }
-
         return ans;
     }
 };
+
