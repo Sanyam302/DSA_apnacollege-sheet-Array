@@ -16,7 +16,8 @@ public:
                 int sum = nums[i] + nums[a] + nums[b];
 
                 if (sum == 0) {
-                    ans.push_back({nums[i], nums[a], nums[b]});
+                    vector<int>t={nums[i], nums[a], nums[b]};
+                    ans.push_back(move(t));
                     a++;
                     b--;
 
