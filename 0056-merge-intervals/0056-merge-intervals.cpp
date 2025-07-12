@@ -4,9 +4,7 @@ public:
         if(arr.empty()) return arr;
         
         // Sort intervals by starting time
-        sort(arr.begin(), arr.end(), [](const vector<int>& a, const vector<int>& b) {
-            return a[0] < b[0];
-        });
+        sort(arr.begin(), arr.end());
 
         vector<vector<int>> ans;
         ans.push_back(arr[0]);
