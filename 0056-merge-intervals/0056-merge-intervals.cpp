@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& arr) {
-        if(arr.empty()||arr.size()==1) return arr;
+        if(arr.empty()) return arr;
         
         sort(arr.begin(),arr.end(),[](vector<int>a,vector<int>b){
             return a[0]<b[0];
