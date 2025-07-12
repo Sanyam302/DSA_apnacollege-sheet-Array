@@ -6,20 +6,20 @@ public:
         // Sort intervals by starting time
         sort(arr.begin(), arr.end());
 
-        vector<vector<int>> ans;
-        ans.push_back(arr[0]);
+       int r=0;
 
         for (int i = 1; i < arr.size(); i++) {
-            vector<int>& l = ans.back();
-            if (arr[i][0] <= l[1]) {
+            
+            if (arr[i][0] <= arr[r][1]) {
                 // Overlap: merge intervals
-                l[1] = max(arr[i][1], l[1]);
+                arr[r][1] = max(arr[i][1], arr[r][1]);
             } else {
-                // No overlap: push new interval
-                ans.push_back(arr[i]);
+                r++;
+                arr[r]=arr[i];
             }
         }
 
-        return ans;
+        return vector<vector<int>>(arr.begin(), arr.begin() + r + 1);
+
     }
 };
