@@ -8,9 +8,9 @@ public:
         });
         vector<vector<int>>ans;
         ans.push_back(arr[0]);
-        int n=arr.size();
         
-        for(int i=0;i<n;i++){
+        
+        for(int i=0;i<arr.size();i++){
            vector<int>&l=ans.back();
            if(arr[i][0]<=l[1]){
             l[1]=max(arr[i][1],l[1]);
