@@ -19,7 +19,8 @@ public:
             }
         }
 
-        return vector<vector<int>>(arr.begin(), arr.begin() + r + 1);
+        arr.resize(r + 1);
+return arr;
 
     }
 };
