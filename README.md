@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0215-kth-largest-element-in-an-array) |
 | [0238-product-of-array-except-self](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0238-product-of-array-except-self) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0540-single-element-in-a-sorted-array) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2316-count-hills-and-valleys-in-an-array](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2316-count-hills-and-valleys-in-an-array) |
 ## Divide and Conquer
 |  |
@@ -80,4 +81,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0077-combinations](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0077-combinations) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+## Bit Manipulation
+|  |
+| ------- |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+## Enumeration
+|  |
+| ------- |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 <!---LeetCode Topics End-->
