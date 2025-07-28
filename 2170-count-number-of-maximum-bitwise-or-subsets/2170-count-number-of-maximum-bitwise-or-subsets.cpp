@@ -1,36 +1,29 @@
 class Solution {
 public:
+    int maxOr = 0;
+    int count = 0;
 
-    void maximum(vector<int>& nums,vector<int>& current,int n,int &ans,vector<int>&result,int a){
-        if(n>nums.size()){
+    void dfs(vector<int>& nums, int index, int orValue) {
+        if (index == nums.size()) {
+            if (orValue == maxOr) count++;
             return;
         }
-        else{
-            for(int i=a;i<n;i++){
-                current.push_back(nums[i]);
-                int temp=0;
-                for(int j:current){
-                   temp|=j;
-                }
-                ans=max(ans,temp);
-                result.push_back(temp);
-                maximum(nums,current,n,ans,result, i+1);
-                current.pop_back();
-            }
-        }
+
+        // Include nums[index]
+        dfs(nums, index + 1, orValue | nums[index]);
+
+        // Exclude nums[index]
+        dfs(nums, index + 1, orValue);
     }
+
     int countMaxOrSubsets(vector<int>& nums) {
-        vector<int> current;
-        int n=nums.size();
-        int ans=0;
-        int a=0;
-        vector<int>result;
-        maximum(nums,current,n,ans,result, a);
-        int count=0;
-        for(int i:result){
-            if(ans==i) count++;
+        // Step 1: Calculate max possible OR
+        for (int num : nums) {
+            maxOr |= num;
         }
-        
+
+        // Step 2: Use DFS to count subsets reaching maxOr
+        dfs(nums, 0, 0);
         return count;
     }
 };
