@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0056-merge-intervals) |
 | [0179-largest-number](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0215-kth-largest-element-in-an-array) |
+| [0242-valid-anagram](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0242-valid-anagram) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -82,10 +83,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0125-valid-palindrome](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0125-valid-palindrome) |
 | [0179-largest-number](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0179-largest-number) |
+| [0242-valid-anagram](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0242-valid-anagram) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0001-two-sum) |
+| [0242-valid-anagram](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0242-valid-anagram) |
 ## Backtracking
 |  |
 | ------- |
