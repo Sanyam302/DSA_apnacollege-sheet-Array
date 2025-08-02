@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2316-count-hills-and-valleys-in-an-array](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2316-count-hills-and-valleys-in-an-array) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2689-rearranging-fruits](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2689-rearranging-fruits) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0242-valid-anagram) |
+| [2689-rearranging-fruits](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2689-rearranging-fruits) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -79,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0011-container-with-most-water) |
 | [0179-largest-number](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0179-largest-number) |
+| [2689-rearranging-fruits](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2689-rearranging-fruits) |
 ## String
 |  |
 | ------- |
@@ -91,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0001-two-sum) |
 | [0242-valid-anagram](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0242-valid-anagram) |
+| [2689-rearranging-fruits](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2689-rearranging-fruits) |
 ## Backtracking
 |  |
 | ------- |
