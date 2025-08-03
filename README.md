@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0540-single-element-in-a-sorted-array) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0934-bitwise-ors-of-subarrays) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+| [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2316-count-hills-and-valleys-in-an-array](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2316-count-hills-and-valleys-in-an-array) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
@@ -70,11 +71,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0238-product-of-array-except-self) |
+| [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 ## Binary Search
 |  |
 | ------- |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0540-single-element-in-a-sorted-array) |
+| [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 ## Greedy
 |  |
@@ -114,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 ## Brainteaser
 |  |
