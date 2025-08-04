@@ -3,34 +3,27 @@ public:
     vector<string> letterCombinations(string digits) {
         if (digits.empty()) return {};
 
-        vector<string> str(10);  // index 0 to 9
-
-        int a = 97; // ASCII value of 'a'
+        vector<string> str(10);
+        int a = 97;
         for (int i = 2; i <= 9; i++) {
-            str[i] += char(a++);
-            str[i] += char(a++);
-            str[i] += char(a++);
-            if (i == 7 || i == 9) {
+            int letters = (i == 7 || i == 9) ? 4 : 3;
+            for (int j = 0; j < letters; j++) {
                 str[i] += char(a++);
             }
         }
 
-        vector<string> result;
-        result.push_back(""); // base for combinations
+        vector<string> result = {""};
 
         for (char ch : digits) {
             vector<string> temp;
             string letters = str[ch - '0'];
-
             for (string prefix : result) {
-                for (char letter : letters) {
-                    temp.push_back(prefix + letter);
+                for (char c : letters) {
+                    temp.push_back(prefix + c);
                 }
             }
-
             result = temp;
         }
-
         return result;
     }
 };
