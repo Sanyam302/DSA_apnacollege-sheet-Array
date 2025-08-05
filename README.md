@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2689-rearranging-fruits](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2689-rearranging-fruits) |
+| [3790-fruits-into-baskets-ii](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/3790-fruits-into-baskets-ii) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0540-single-element-in-a-sorted-array) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
+| [3790-fruits-into-baskets-ii](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/3790-fruits-into-baskets-ii) |
 ## Greedy
 |  |
 | ------- |
@@ -132,4 +134,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0014-longest-common-prefix) |
+## Segment Tree
+|  |
+| ------- |
+| [3790-fruits-into-baskets-ii](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/3790-fruits-into-baskets-ii) |
+## Simulation
+|  |
+| ------- |
+| [3790-fruits-into-baskets-ii](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/3790-fruits-into-baskets-ii) |
+## Ordered Set
+|  |
+| ------- |
+| [3790-fruits-into-baskets-ii](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/3790-fruits-into-baskets-ii) |
 <!---LeetCode Topics End-->
