@@ -98,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0125-valid-palindrome) |
 | [0179-largest-number](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0179-largest-number) |
 | [0242-valid-anagram](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0242-valid-anagram) |
+| [0424-longest-repeating-character-replacement](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0424-longest-repeating-character-replacement) |
 ## Hash Table
 |  |
 | ------- |
@@ -105,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0242-valid-anagram](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0242-valid-anagram) |
+| [0424-longest-repeating-character-replacement](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0424-longest-repeating-character-replacement) |
 | [2689-rearranging-fruits](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2689-rearranging-fruits) |
 ## Backtracking
 |  |
@@ -127,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0424-longest-repeating-character-replacement](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0424-longest-repeating-character-replacement) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 ## Brainteaser
