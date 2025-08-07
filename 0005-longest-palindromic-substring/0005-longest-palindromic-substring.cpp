@@ -1,26 +1,34 @@
 class Solution {
 public:
-    string expandFromCenter(string& s, int left, int right) {
-        while (left >= 0 && right < s.size() && s[left] == s[right]) {
-            left--;
-            right++;
+    unordered_set<int> visited;
+
+    void maxlength(string s, string &ans, int mid) {
+        if (mid < 0 || mid >= s.size() || visited.count(mid)) return;
+        visited.insert(mid);
+
+        // Odd
+        int i = mid, j = mid;
+        while (i >= 0 && j < s.size() && s[i] == s[j]) {
+            if (j - i + 1 > ans.size()) ans = s.substr(i, j - i + 1);
+            i--; j++;
         }
-        return s.substr(left + 1, right - left - 1);
+
+        // Even
+        i = mid, j = mid + 1;
+        while (i >= 0 && j < s.size() && s[i] == s[j]) {
+            if (j - i + 1 > ans.size()) ans = s.substr(i, j - i + 1);
+            i--; j++;
+        }
+
+        maxlength(s, ans, mid - 1);
+        maxlength(s, ans, mid + 1);
     }
 
     string longestPalindrome(string s) {
-        if (s.empty()) return "";
-        string longest = s.substr(0, 1); // single char is always palindrome
-
-        for (int i = 0; i < s.size(); ++i) {
-            // Odd length
-            string odd = expandFromCenter(s, i, i);
-            if (odd.size() > longest.size()) longest = odd;
-
-            // Even length
-            string even = expandFromCenter(s, i, i + 1);
-            if (even.size() > longest.size()) longest = even;
-        }
-        return longest;
+        string ans = "";
+        int mid = s.size() / 2;
+        maxlength(s, ans, mid);
+        return ans;
     }
 };
+// ✅ Don't forget this semicolon
