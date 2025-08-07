@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0042-trapping-rain-water) |
 | [0118-pascals-triangle](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0118-pascals-triangle) |
 | [0152-maximum-product-subarray](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0152-maximum-product-subarray) |
+| [0516-longest-palindromic-subsequence](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0516-longest-palindromic-subsequence) |
 | [0647-palindromic-substrings](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0647-palindromic-substrings) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0934-bitwise-ors-of-subarrays) |
 ## Stack
@@ -109,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0179-largest-number) |
 | [0242-valid-anagram](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0242-valid-anagram) |
 | [0424-longest-repeating-character-replacement](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0424-longest-repeating-character-replacement) |
+| [0516-longest-palindromic-subsequence](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0516-longest-palindromic-subsequence) |
 | [0647-palindromic-substrings](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0647-palindromic-substrings) |
 ## Hash Table
 |  |
