@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0011-container-with-most-water) |
 | [0014-longest-common-prefix](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0015-3sum) |
+| [0031-next-permutation](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0056-merge-intervals) |
@@ -54,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0015-3sum) |
+| [0031-next-permutation](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0042-trapping-rain-water) |
 | [0125-valid-palindrome](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0125-valid-palindrome) |
 | [0647-palindromic-substrings](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0647-palindromic-substrings) |
