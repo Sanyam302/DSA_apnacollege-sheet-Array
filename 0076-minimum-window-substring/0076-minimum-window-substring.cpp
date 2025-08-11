@@ -1,62 +1,45 @@
-
 class Solution {
 public:
     string minWindow(string s, string t) {
-        if(s.size() < t.size()) return "";
-
-        // Hash to store number of characters in t
-        unordered_map<char, int> tHash;
-        // Hash to store number of characters in s
-        unordered_map<char, int> sHash;
-
-        for (char i : t){
-            tHash[i]++;
-        }
-
-        // Store needed characters in s
-        int neededChars = t.size();
-
-        int windowStart = 0;
-        int windowEnd = 0;
-
-        // To track min length from start
-        int minLen = INT_MAX;
-        // To track min starting point
-        int minStart = 0;
-
-
-        for (windowEnd = 0; windowEnd < s.size(); ++windowEnd) {
+        if (s.size() < t.size()) return "";
+        unordered_map<char, int> tfreq;
+        for (char c : t) tfreq[c]++;
+        
+        unordered_map<char, int> windowCounts;
+        int required = tfreq.size();  // number of unique chars to be matched
+        int formed = 0;                // how many unique chars currently meet requirement
+        
+        int left = 0, right = 0;
+        int minLen = INT_MAX, minStart = 0;
+        
+        while (right < s.size()) {
+            char c = s[right];
+            windowCounts[c]++;
             
-            // If after increasing in sHash, still it is less than or equal tHash
-            // It determines we found that character, so decrease neededChars
-            if(++sHash[s[windowEnd]] <= tHash[s[windowEnd]]){
-                neededChars--;
+            if (tfreq.find(c) != tfreq.end() && windowCounts[c] == tfreq[c]) {
+                formed++;
             }
-
-
-            // If neededChars is 0, then we can reduce from start
-            while (neededChars == 0) {
-
-                // To track min substring
-                // As some extra characters can be attached from right
-                // If you are thinking to choose windoEnd for determining length
-                int currLen = windowEnd - windowStart + 1;
-                if (currLen < minLen) {
-                    minLen = currLen;
-                    minStart = windowStart;
+            
+            // Try to shrink the window from the left if all chars matched
+            while (left <= right && formed == required) {
+                // Update answer if smaller window found
+                if (right - left + 1 < minLen) {
+                    minLen = right - left + 1;
+                    minStart = left;
                 }
-
-                // Decreasing character from left
-                if(--sHash[s[windowStart]] < tHash[s[windowStart]])
-                    neededChars++;
-
-                // Increasing window
-                ++windowStart;
+                
+                // Remove leftmost char from window
+                char leftChar = s[left];
+                windowCounts[leftChar]--;
+                if (tfreq.find(leftChar) != tfreq.end() && windowCounts[leftChar] < tfreq[leftChar]) {
+                    formed--;
+                }
+                left++;
             }
+            
+            right++;
         }
-
-        // If minLen == INT_MAX, i.e. we have never found any substring
+        
         return (minLen == INT_MAX) ? "" : s.substr(minStart, minLen);
-         
     }
 };
