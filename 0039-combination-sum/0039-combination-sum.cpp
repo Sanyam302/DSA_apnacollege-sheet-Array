@@ -1,23 +1,32 @@
 class Solution {
 public:
-    void helper(vector<int>& candidates, int target,int idx,vector<int>&temp,vector<vector<int>>&result){
-        if(target==0){
-            result.push_back(temp);
-            return;
+  set<vector<int>>s;
+   void subSet(vector<int>&arr, int target,vector<int>&temp,int i,int n,vector<vector<int>>&ans){
+     if(i==n || target<0){
+        return;
+     }
+     if(target==0){
+        if(s.find(temp)==s.end()){
+          ans.push_back(temp);
+          s.insert(temp);
         }
-        for(int i=idx;i<candidates.size();i++){
-            if(candidates[i] > target) break;
-
-            temp.push_back(candidates[i]);
-            helper(candidates,target-candidates[i],i,temp,result); //pas the same i th element as it can be used infinite times till it is not equal to target also decrement the target 
-            temp.pop_back();
-        }
-    }
-    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-        vector<vector<int>>result;
-        vector<int>temp;
-        sort(candidates.begin(),candidates.end());
-        helper(candidates,target,0,temp,result);
-        return result;
+        
+        return;
+     }
+     
+     temp.push_back(arr[i]);
+     subSet(arr, target-arr[i],temp,i+1,n,ans);
+     subSet(arr, target-arr[i],temp,i,n,ans);
+     temp.pop_back();
+     subSet(arr, target,temp,i+1,n,ans);
+   }
+    vector<vector<int>> combinationSum(vector<int>& arr, int target) {
+       vector<int>temp;
+       vector<vector<int>>ans;
+       int i=0;
+       int n=arr.size(); 
+       sort(arr.begin(),arr.end());
+       subSet(arr, target,temp,i,n,ans);
+       return ans;
     }
 };
