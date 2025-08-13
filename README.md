@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0015-3sum) |
 | [0031-next-permutation](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0031-next-permutation) |
+| [0039-combination-sum](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0056-merge-intervals) |
@@ -128,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0039-combination-sum](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0039-combination-sum) |
 | [0077-combinations](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0077-combinations) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Bit Manipulation
