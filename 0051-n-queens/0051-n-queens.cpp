@@ -32,8 +32,8 @@ void Nqueens(int n,vector<vector<string>>&ans,int i,vector<vector<int>>&placed,v
                 }
               }
               temp.push_back(block);
-              int row=i+1;
-              Nqueens(n,ans,row,placed,temp);
+              
+              Nqueens(n,ans,i+1,placed,temp);
               placed.pop_back();
               temp.pop_back();
               }
