@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0238-product-of-array-except-self) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0540-single-element-in-a-sorted-array) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0934-bitwise-ors-of-subarrays) |
+| [2146-check-if-word-can-be-placed-in-crossword](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2146-check-if-word-can-be-placed-in-crossword) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2316-count-hills-and-valleys-in-an-array](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2316-count-hills-and-valleys-in-an-array) |
@@ -142,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [2146-check-if-word-can-be-placed-in-crossword](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2146-check-if-word-can-be-placed-in-crossword) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Sliding Window
 |  |
@@ -171,4 +173,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3790-fruits-into-baskets-ii](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/3790-fruits-into-baskets-ii) |
+## Matrix
+|  |
+| ------- |
+| [2146-check-if-word-can-be-placed-in-crossword](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2146-check-if-word-can-be-placed-in-crossword) |
 <!---LeetCode Topics End-->
