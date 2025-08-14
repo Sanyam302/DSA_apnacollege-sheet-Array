@@ -1,37 +1,75 @@
-// OJ: https://leetcode.com/problems/check-if-word-can-be-placed-in-crossword/
-// Author: github.com/lzl124631x
-// Time: O(MN)
-// Space: O(MN)
 class Solution {
-    bool same(vector<char> &A, int first, int last, string &s) { // returns true if `A[first..last]` equals `s` or reversed `s`.
-        if (last - first + 1 != s.size()) return false;
-        int i = 0, N = s.size();
-        while (i < N && (A[first + i] == ' ' || A[first + i] == s[i])) ++i; // match from left to right
-        if (i == N) return true;
-        for (i = 0; i < N && (A[last - i] == ' ' || A[last - i] == s[i]);) ++i; // match from right to left
-        return i == N;
-    }
-    bool match(vector<vector<char>> &A, string s) { // returns `true` if matrix `A` matches string `s` horizontally
-        int N = A[0].size();
-        for (auto &row : A) {
-            for (int i = 0; i < N; ) {
-                while (i < N && row[i] == '#') ++i;
-                int start = i;
-                while (i < N && row[i] != '#') ++i;
-                if (same(row, start, i - 1, s)) return true; // match `row[start..(i-1)]` with `s`.
-            }
+public:
+    bool placeWordInCrossword(vector<vector<char>>& board, string word) {
+        int m = board.size();
+        int n = board[0].size();
+
+        // Check all rows (horizontal)
+        for(int r = 0; r < m; r++){
+            if(checkLine(board[r], word)) return true;
         }
+
+        // Check all columns (vertical)
+        for(int c = 0; c < n; c++){
+            vector<char> col(m);
+            for(int r = 0; r < m; r++) col[r] = board[r][c];
+            if(checkLine(col, word)) return true;
+        }
+
         return false;
     }
-public:
-    bool placeWordInCrossword(vector<vector<char>>& A, string s) {
-        int M = A.size(), N = A[0].size();
-        vector<vector<char>> B(N, vector<char>(M)); // `B` is the transpose of `A`
-        for (int i = 0; i < M; ++i) {
-            for (int j = 0; j < N; ++ j) {
-                B[j][i] = A[i][j];
+
+private:
+    // Check a single line (row or column)
+    bool checkLine(vector<char>& line, string& word){
+        int n = line.size();
+        int start = 0;
+
+        while(start < n){
+            // Skip blocked cells
+            while(start < n && line[start] == '#') start++;
+            if(start >= n) break;
+
+            int end = start;
+            while(end < n && line[end] != '#') end++;
+
+            int len = end - start;
+
+            // Check only segments matching word length
+            if(len == word.size()){
+                if(isMatch(line, start, word) || isReverseMatch(line, start, word))
+                    return true;
             }
+
+            start = end + 1; // Move to next segment
         }
-        return match(A, s) || match(B, s);
+
+        return false;
+    }
+
+    // Forward match
+    bool isMatch(vector<char>& line, int start, string& word){
+        int n = word.size();
+        for(int i = 0; i < n; i++){
+            if(line[start+i] != ' ' && line[start+i] != word[i])
+                return false;
+        }
+        // Check boundaries
+        if((start > 0 && line[start-1] != '#') || (start+n < line.size() && line[start+n] != '#'))
+            return false;
+        return true;
+    }
+
+    // Backward match
+    bool isReverseMatch(vector<char>& line, int start, string& word){
+        int n = word.size();
+        for(int i = 0; i < n; i++){
+            if(line[start+i] != ' ' && line[start+i] != word[n-1-i])
+                return false;
+        }
+        // Check boundaries
+        if((start > 0 && line[start-1] != '#') || (start+n < line.size() && line[start+n] != '#'))
+            return false;
+        return true;
     }
 };
