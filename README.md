@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2316-count-hills-and-valleys-in-an-array](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2316-count-hills-and-valleys-in-an-array) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2662-check-knight-tour-configuration](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2662-check-knight-tour-configuration) |
 | [2689-rearranging-fruits](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2689-rearranging-fruits) |
 | [3790-fruits-into-baskets-ii](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/3790-fruits-into-baskets-ii) |
 ## Divide and Conquer
@@ -175,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [2662-check-knight-tour-configuration](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2662-check-knight-tour-configuration) |
 | [3790-fruits-into-baskets-ii](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/3790-fruits-into-baskets-ii) |
 ## Ordered Set
 |  |
@@ -185,4 +187,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0037-sudoku-solver](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0037-sudoku-solver) |
 | [2146-check-if-word-can-be-placed-in-crossword](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2146-check-if-word-can-be-placed-in-crossword) |
+| [2662-check-knight-tour-configuration](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2662-check-knight-tour-configuration) |
+## Depth-First Search
+|  |
+| ------- |
+| [2662-check-knight-tour-configuration](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2662-check-knight-tour-configuration) |
+## Breadth-First Search
+|  |
+| ------- |
+| [2662-check-knight-tour-configuration](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2662-check-knight-tour-configuration) |
 <!---LeetCode Topics End-->
