@@ -8,10 +8,10 @@ public:
      bool valid(vector<vector<int>>& grid,int n,int row,int col,int num){
         int newrow=-1;
         int newcol=-1;
-        if(num==(n*n-1)) return true;
+        if(num==(n*n)) return true;
         for(int i=0;i<n;i++){
             for(int j=0;j<n;j++){
-                if(grid[i][j]==num+1){
+                if(grid[i][j]==num){
                     newrow=i;
                     newcol=j;
                     
@@ -27,6 +27,6 @@ public:
 
     bool checkValidGrid(vector<vector<int>>& grid) {
          if(grid[0][0]!=0) return false;
-       return valid(grid,grid.size(),0,0,0);
+       return valid(grid,grid.size(),0,0,1);
     }
 };
