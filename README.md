@@ -122,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0125-valid-palindrome) |
 | [0179-largest-number](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0179-largest-number) |
 | [0242-valid-anagram](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0242-valid-anagram) |
+| [0387-first-unique-character-in-a-string](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0424-longest-repeating-character-replacement) |
 | [0516-longest-palindromic-subsequence](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0516-longest-palindromic-subsequence) |
 | [0647-palindromic-substrings](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0647-palindromic-substrings) |
@@ -135,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0076-minimum-window-substring) |
 | [0242-valid-anagram](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0242-valid-anagram) |
+| [0387-first-unique-character-in-a-string](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0496-next-greater-element-i) |
 | [2689-rearranging-fruits](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2689-rearranging-fruits) |
@@ -212,4 +214,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0232-implement-queue-using-stacks) |
+| [0387-first-unique-character-in-a-string](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0387-first-unique-character-in-a-string) |
+## Counting
+|  |
+| ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0387-first-unique-character-in-a-string) |
 <!---LeetCode Topics End-->
