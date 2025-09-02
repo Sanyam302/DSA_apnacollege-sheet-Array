@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0238-product-of-array-except-self) |
 | [0416-partition-equal-subset-sum](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0416-partition-equal-subset-sum) |
 | [0496-next-greater-element-i](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0540-single-element-in-a-sorted-array) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0934-bitwise-ors-of-subarrays) |
 | [2146-check-if-word-can-be-placed-in-crossword](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2146-check-if-word-can-be-placed-in-crossword) |
@@ -86,11 +87,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0232-implement-queue-using-stacks) |
 | [0496-next-greater-element-i](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0503-next-greater-element-ii) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0503-next-greater-element-ii) |
 ## Prefix Sum
 |  |
 | ------- |
