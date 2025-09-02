@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0934-bitwise-ors-of-subarrays](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0934-bitwise-ors-of-subarrays) |
 | [2146-check-if-word-can-be-placed-in-crossword](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2146-check-if-word-can-be-placed-in-crossword) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+| [2195-time-needed-to-buy-tickets](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2195-time-needed-to-buy-tickets) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2316-count-hills-and-valleys-in-an-array](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2316-count-hills-and-valleys-in-an-array) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
@@ -184,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [2195-time-needed-to-buy-tickets](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2195-time-needed-to-buy-tickets) |
 | [2662-check-knight-tour-configuration](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2662-check-knight-tour-configuration) |
 | [3790-fruits-into-baskets-ii](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/3790-fruits-into-baskets-ii) |
 ## Ordered Set
@@ -215,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0232-implement-queue-using-stacks) |
 | [0387-first-unique-character-in-a-string](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/0387-first-unique-character-in-a-string) |
+| [2195-time-needed-to-buy-tickets](https://github.com/Sanyam302/DSA_apnacollege-sheet-Array/tree/master/2195-time-needed-to-buy-tickets) |
 ## Counting
 |  |
 | ------- |
